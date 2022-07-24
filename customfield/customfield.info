@@ -1,0 +1,6 @@
+name = Custom field for views
+description = Creates a custom field for views
+package = cadena
+core = 7.x
+files[] = customfield.views.inc
+files[] = includes/views_handler_my_custom_field

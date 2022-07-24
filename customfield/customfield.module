@@ -1,0 +1,11 @@
+<?php
+//  https://martsie.github.io/2014/04/08/drupal-views-database-custom-field/
+/**
+ * Implements hook_views_api().
+ */
+function customfield_views_api() {
+  return array(
+    'api' => 3,
+    // 'path' => drupal_get_path('module', 'customfield'),
+  );
+}
